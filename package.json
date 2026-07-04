@@ -1,0 +1,53 @@
+{
+  "name": "@swifty.js/fonts",
+  "version": "0.0.1",
+  "description": "Swifty",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./extended": {
+      "types": "./dist/extended.d.ts",
+      "default": "./dist/extended.js"
+    },
+    "./Swifty/*": "./dist/Swifty/*"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "pnpm build"
+  },
+  "bugs": {
+    "url": "https://github.com/hangtiancheng/swifty-font/issues"
+  },
+  "homepage": "https://github.com/hangtiancheng/swifty-font",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hangtiancheng/swifty-font"
+  },
+  "keywords": [
+    "font",
+    "swifty",
+    "monospace",
+    "next-font"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.1",
+  "peerDependencies": {
+    "next": ">=13"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.0",
+    "next": "^16.2.10",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}

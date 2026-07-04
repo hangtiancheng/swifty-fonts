@@ -1,0 +1,72 @@
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/Swifty-Regular.woff2') format('woff2'), url('TTF-Unhinted/Swifty-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/Swifty-Extended.woff2') format('woff2'), url('TTF-Unhinted/Swifty-Extended.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/Swifty-Italic.woff2') format('woff2'), url('TTF-Unhinted/Swifty-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/Swifty-ExtendedItalic.woff2') format('woff2'), url('TTF-Unhinted/Swifty-ExtendedItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/Swifty-Bold.woff2') format('woff2'), url('TTF-Unhinted/Swifty-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2-Unhinted/Swifty-ExtendedBold.woff2') format('woff2'), url('TTF-Unhinted/Swifty-ExtendedBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/Swifty-BoldItalic.woff2') format('woff2'), url('TTF-Unhinted/Swifty-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2-Unhinted/Swifty-ExtendedBoldItalic.woff2') format('woff2'), url('TTF-Unhinted/Swifty-ExtendedBoldItalic.ttf') format('truetype');
+}

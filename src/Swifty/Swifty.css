@@ -1,0 +1,72 @@
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/Swifty-Regular.woff2') format('woff2'), url('TTF/Swifty-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/Swifty-Extended.woff2') format('woff2'), url('TTF/Swifty-Extended.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/Swifty-Italic.woff2') format('woff2'), url('TTF/Swifty-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/Swifty-ExtendedItalic.woff2') format('woff2'), url('TTF/Swifty-ExtendedItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('WOFF2/Swifty-Bold.woff2') format('woff2'), url('TTF/Swifty-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('WOFF2/Swifty-ExtendedBold.woff2') format('woff2'), url('TTF/Swifty-ExtendedBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('WOFF2/Swifty-BoldItalic.woff2') format('woff2'), url('TTF/Swifty-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Swifty Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('WOFF2/Swifty-ExtendedBoldItalic.woff2') format('woff2'), url('TTF/Swifty-ExtendedBoldItalic.ttf') format('truetype');
+}

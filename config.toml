@@ -1,0 +1,59 @@
+# Swifty — Custom Iosevka Build Configuration
+#
+# Usage:
+#   git clone git@github.com:be5invis/Iosevka.git
+#   cp config.toml Iosevka/
+#   cd Iosevka && npm install
+#   npm run build -- contents::Swifty
+
+[buildPlans.Swifty]
+family = "Swifty"
+exportGlyphNames = false
+noCvSs = true
+serifs = "sans"
+spacing = "normal"
+
+# --- Variant Inheritance ---------------------------------------------------
+# Inherits from ss06 (character variant set 6) as the base style.
+[buildPlans.Swifty.variants]
+inherits = "ss06"
+
+[buildPlans.Swifty.variants.design]
+at = "compact"
+capital-g = "toothed-serifless-hookless"
+capital-q = "crossing"
+diacritic-dot = "round"
+five = "upright-arched-serifless"
+lig-ltgteq = "slanted"
+punctuation-dot = "round"
+tittle = "round"
+two = "straight-neck-serifless"
+
+# --- Ligatures ------------------------------------------------------------
+# Uses the JavaScript ligature set (=>, ===, !=, etc.).
+[buildPlans.Swifty.ligations]
+inherits = "javascript"
+
+# --- Weights --------------------------------------------------------------
+[buildPlans.Swifty.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.Swifty.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+# --- Slopes ---------------------------------------------------------------
+[buildPlans.Swifty.slopes.Upright]
+shape = "upright"
+menu = "upright"
+css = "normal"
+angle = 0
+
+[buildPlans.Swifty.slopes.Italic]
+shape = "italic"
+menu = "italic"
+css = "italic"
+angle = 9.4

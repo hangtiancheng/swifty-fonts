@@ -15,7 +15,11 @@ Import the font in your Next.js layout or page component:
 ```tsx
 import { Swifty } from "@swifty.js/fonts";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className={Swifty.variable}>
       <body>{children}</body>
@@ -29,7 +33,11 @@ For the extended (wider) variant:
 ```tsx
 import { SwiftyExtended } from "@swifty.js/fonts/extended";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en" className={SwiftyExtended.variable}>
       <body>{children}</body>
@@ -48,7 +56,8 @@ Each font exposes a CSS custom property:
 Use them in your styles:
 
 ```css
-code, pre {
+code,
+pre {
   font-family: var(--font-swifty);
 }
 ```

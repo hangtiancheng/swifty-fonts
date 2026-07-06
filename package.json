@@ -20,7 +20,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc && cp -r src/Swifty dist/",
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "postbuild": "cp -r src/Swifty dist/",
     "dev": "tsc --watch",
     "prepublishOnly": "pnpm build"
   },

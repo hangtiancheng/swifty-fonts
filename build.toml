@@ -1,0 +1,52 @@
+# Swifty
+
+[buildPlans.Swifty]
+exportGlyphNames = false
+family = "Swifty"
+noCvSs = true
+serifs = "sans"
+spacing = "normal"
+
+[buildPlans.Swifty.variants]
+inherits = "ss06"
+
+[buildPlans.Swifty.variants.design]
+at = "compact"
+capital-g = "toothed-serifless-hookless"
+capital-j = "serifless"
+capital-m = "flat-bottom-serifless"
+capital-q = "crossing"
+capital-w = "straight-flat-top-serifless"
+diacritic-dot = "round"
+five = "upright-arched-serifless"
+j = "serifless"
+lig-ltgteq = "slanted"
+punctuation-dot = "round"
+tittle = "round"
+two = "straight-neck-serifless"
+w = "straight-flat-top-serifless"
+
+[buildPlans.Swifty.ligations]
+inherits = "javascript"
+
+[buildPlans.Swifty.weights.Regular]
+css = 400
+menu = 400
+shape = 400
+
+[buildPlans.Swifty.weights.Bold]
+css = 700
+menu = 700
+shape = 700
+
+[buildPlans.Swifty.slopes.Upright]
+angle = 0
+css = "normal"
+menu = "upright"
+shape = "upright"
+
+[buildPlans.Swifty.slopes.Italic]
+angle = 9.4
+css = "italic"
+menu = "italic"
+shape = "italic"
